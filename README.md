@@ -8,6 +8,16 @@ Commerce inference scheduling and evaluation on **AMD Token Factory**.
 
 The public site lets judges try a return-policy precheck, inspect unedited AMD responses, compare recorded results, and download English materials. It is a static evidence demo with browser-side rules. It does **not** expose the local gateway, a secret key, or a metered generation endpoint. The runnable Python gateway below provides real AMD inference when configured locally. Recorded evidence shows where AMD powered the product.
 
+## Real workflow walkthrough
+
+[Watch the English walkthrough](https://inferflow-amd-provoke210.spry-yak-0940.chatgpt.site/assets/materials/InferFlow-live-walkthrough-en.mp4) or inspect [the complete run record](results/live-walkthrough.json).
+
+The local UI submitted three background summaries and then one customer question through AMD Token Factory, using DeepSeek-V4-Flash. All four generations succeeded, with no retry or cache hit. The customer response completed after the first summary and before the other two. This demonstration has no baseline and does not establish a speedup. The video uses real browser screenshots captured during the run, edited pacing and synthetic English narration; it is not an uninterrupted screen recording.
+
+Quality review found unsupported advice to wait one more business day in the customer draft. The exact output is retained and needs human editing. The same walkthrough shows the independent structured check rejecting day 10, asking about unknown packaging and routing day 7 to human review without approving a refund.
+
+This later run added 5 attempts (1 model discovery and 4 generations), bringing the local rolling 24-hour ledger from 35 to its existing 40-call ceiling. The earlier paired study's 27-of-30 accounting remains unchanged. No further AMD calls were made. Do not reset the ledger or raise the limit to continue testing.
+
 ## Run locally
 
 Python 3.9+ is required. Run one worker only. Node is optional for the browser/Python parity test, not needed for the gateway.

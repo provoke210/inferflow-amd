@@ -17,3 +17,5 @@ results/*
 !results/live-study-quality.json
 !results/live-study-session.json
 .DS_Store
+
+!results/live-walkthrough.json
