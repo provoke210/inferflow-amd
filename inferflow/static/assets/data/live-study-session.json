@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-14",
+  "initial_local_attempts_24h": 8,
+  "final_local_attempts_24h": 35,
+  "new_attempts": 27,
+  "new_attempts_cap": 30,
+  "generation_attempts": 23,
+  "known_502_responses": 7,
+  "observed_tokens_from_successful_generation_responses": 2854,
+  "conservative_reserved_token_allowance": 22822,
+  "reserved_token_allowance_cap": 24000,
+  "allowance_is_not_official_tokenizer_or_billing_guarantee": true,
+  "failed_request_token_usage": "unknown; not treated as zero",
+  "rpm": 20,
+  "concurrency_cap": 2,
+  "local_24h_request_cap": 40,
+  "remaining_provider_points_after_study": 0.9994463000330143,
+  "scope": "Includes preflight, failed first pair, diagnosis/recovery probes, successful complete cold pair, and final usage query. No warm live pair. No more live calls for materials."
+}

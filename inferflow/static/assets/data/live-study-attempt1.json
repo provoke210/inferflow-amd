@@ -1,0 +1,818 @@
+{
+  "model": "DeepSeek-V4-Flash",
+  "workload": [
+    {
+      "arrival_seconds": 0.0,
+      "request": {
+        "model": "DeepSeek-V4-Flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You assist a demo shop. Returns can be requested within 7 days of delivery only if unused and packaging is intact. Ask about any missing condition. A human must verify eligibility. Do not promise a refund, an arrival date, or a fee amount. Use only facts provided. Keep the answer under 55 words."
+          },
+          {
+            "role": "user",
+            "content": "Summarize in exactly 3 labeled lines: Issue, Missing facts, Human next step. Ticket A: parcel is two days late. Customer asks for an arrival date. No tracking update is available."
+          }
+        ],
+        "tenant": "synthetic-study",
+        "knowledge_version": "study-v1",
+        "priority": "background",
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "max_tokens": 160,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 90.0
+      }
+    },
+    {
+      "arrival_seconds": 0.02,
+      "request": {
+        "model": "DeepSeek-V4-Flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You assist a demo shop. Returns can be requested within 7 days of delivery only if unused and packaging is intact. Ask about any missing condition. A human must verify eligibility. Do not promise a refund, an arrival date, or a fee amount. Use only facts provided. Keep the answer under 55 words."
+          },
+          {
+            "role": "user",
+            "content": "Summarize in exactly 3 labeled lines: Issue, Missing facts, Human next step. Ticket B: customer received blue instead of ordered red. Delivery was yesterday. Item unused, packaging intact. Customer requests an exchange."
+          }
+        ],
+        "tenant": "synthetic-study",
+        "knowledge_version": "study-v1",
+        "priority": "background",
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "max_tokens": 160,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 90.0
+      }
+    },
+    {
+      "arrival_seconds": 0.04,
+      "request": {
+        "model": "DeepSeek-V4-Flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You assist a demo shop. Returns can be requested within 7 days of delivery only if unused and packaging is intact. Ask about any missing condition. A human must verify eligibility. Do not promise a refund, an arrival date, or a fee amount. Use only facts provided. Keep the answer under 55 words."
+          },
+          {
+            "role": "user",
+            "content": "Summarize in exactly 3 labeled lines: Issue, Missing facts, Human next step. Ticket C: delivered three days ago, unused item. Packaging state and return shipping fee unknown. Customer requests a return."
+          }
+        ],
+        "tenant": "synthetic-study",
+        "knowledge_version": "study-v1",
+        "priority": "background",
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "max_tokens": 160,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 90.0
+      }
+    },
+    {
+      "arrival_seconds": 0.2,
+      "request": {
+        "model": "DeepSeek-V4-Flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You assist a demo shop. Returns can be requested within 7 days of delivery only if unused and packaging is intact. Ask about any missing condition. A human must verify eligibility. Do not promise a refund, an arrival date, or a fee amount. Use only facts provided. Keep the answer under 55 words."
+          },
+          {
+            "role": "user",
+            "content": "Delivered 3 days ago and unused. Can I return it?"
+          }
+        ],
+        "tenant": "synthetic-study",
+        "knowledge_version": "study-v1",
+        "priority": "interactive",
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "max_tokens": 96,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 90.0
+      }
+    },
+    {
+      "arrival_seconds": 0.4,
+      "request": {
+        "model": "DeepSeek-V4-Flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You assist a demo shop. Returns can be requested within 7 days of delivery only if unused and packaging is intact. Ask about any missing condition. A human must verify eligibility. Do not promise a refund, an arrival date, or a fee amount. Use only facts provided. Keep the answer under 55 words."
+          },
+          {
+            "role": "user",
+            "content": "Delivered 10 days ago, unused, packaging intact. Am I eligible under this policy?"
+          }
+        ],
+        "tenant": "synthetic-study",
+        "knowledge_version": "study-v1",
+        "priority": "interactive",
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "max_tokens": 96,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 90.0
+      }
+    },
+    {
+      "arrival_seconds": 0.6,
+      "request": {
+        "model": "DeepSeek-V4-Flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You assist a demo shop. Returns can be requested within 7 days of delivery only if unused and packaging is intact. Ask about any missing condition. A human must verify eligibility. Do not promise a refund, an arrival date, or a fee amount. Use only facts provided. Keep the answer under 55 words."
+          },
+          {
+            "role": "user",
+            "content": "Delivered 3 days ago and unused. Can I return it?"
+          }
+        ],
+        "tenant": "synthetic-study",
+        "knowledge_version": "study-v1",
+        "priority": "interactive",
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "max_tokens": 96,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 90.0
+      }
+    }
+  ],
+  "workload_sha256": "3554090576a075891a56ef3ec292a415e4ac61aaeb657f4f4a1bb4fe959c2076",
+  "case_order": [
+    "cold baseline",
+    "cold optimized",
+    "warm optimized",
+    "warm baseline"
+  ],
+  "calls_cap_after_preflight": 29,
+  "preflight_calls": 1,
+  "total_new_calls_cap": 30,
+  "token_reservation_cap": 24000,
+  "max_output_tokens_per_request": 160,
+  "rpm": 20,
+  "concurrency": 2,
+  "provider_idle_seconds_before_measurement": 61,
+  "method": "Six identical scheduled requests per arm (3 summaries, 3 interactive including one exact repeat). Independent empty in-memory caches per arm. Both warm arms execute the same two unique FAQ warmups. The persistent RPM/budget ledger is shared and never cleared. Wait 61 seconds after the most recent real call before every measurement; this waits for the minute window naturally, without bypassing limits. Arms are sequential, with reversed order in the warm pair. No statistical inference from this one small sample. No TTFT or GPU/kernel claims.",
+  "simulated": false,
+  "status": "failed",
+  "started_at_utc": "2026-10-14T03:58:07Z",
+  "initial_local_attempts_24h": 9,
+  "absolute_request_cap": 38,
+  "results": [
+    {
+      "cache_state": "cold",
+      "policy": "baseline",
+      "warmup": {},
+      "responses": [
+        {
+          "index": 0,
+          "priority": "background",
+          "arrival_seconds": 0.0,
+          "content": "Issue: Parcel is two days late; customer requests an arrival date.  \nMissing facts: No tracking update; delivery date unknown.  \nHuman next step: Verify eligibility for return/refund per 7-day policy; do not promise a date.",
+          "finish_reason": "stop",
+          "usage": {
+            "prompt_tokens": 108,
+            "total_tokens": 160,
+            "completion_tokens": 52,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0,
+              "video_tokens": 0,
+              "image_tokens": 0
+            },
+            "reasoning_tokens": 0,
+            "cost": 2.968e-05,
+            "cost_details": {
+              "upstream_inference_cost": 2.968e-05,
+              "upstream_inference_prompt_cost": 1.512e-05,
+              "upstream_inference_completions_cost": 1.456e-05,
+              "total_cost": 2.968e-05,
+              "input_cost": 1.512e-05,
+              "output_cost": 1.456e-05,
+              "cached_input_cost": 0,
+              "cache_write_input_cost": 0,
+              "request_cost": 0,
+              "web_search_cost": 0,
+              "image_input_cost": null,
+              "image_output_cost": null,
+              "audio_input_cost": null
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          },
+          "gateway": {
+            "request_id": "1263135ed8064c2d91a2a4b11b02d308",
+            "simulated": false,
+            "cache_hit": false,
+            "queue_ms": 0.061,
+            "e2e_ms": 12088.184,
+            "attempts": 1
+          },
+          "usable": true
+        },
+        {
+          "index": 1,
+          "priority": "background",
+          "arrival_seconds": 0.02,
+          "content": "Issue: Customer received blue item instead of ordered red; requests exchange.\nMissing facts: Whether 7-day window applies (delivery yesterday), and if exchange is allowed per policy.\nHuman next step: Verify eligibility (unused, intact packaging) and confirm exchange availability.",
+          "finish_reason": "stop",
+          "usage": {
+            "prompt_tokens": 112,
+            "total_tokens": 167,
+            "completion_tokens": 55,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0,
+              "video_tokens": 0,
+              "image_tokens": 0
+            },
+            "reasoning_tokens": 0,
+            "cost": 3.108e-05,
+            "cost_details": {
+              "upstream_inference_cost": 3.108e-05,
+              "upstream_inference_prompt_cost": 1.568e-05,
+              "upstream_inference_completions_cost": 1.54e-05,
+              "total_cost": 3.108e-05,
+              "input_cost": 1.568e-05,
+              "output_cost": 1.54e-05,
+              "cached_input_cost": 0,
+              "cache_write_input_cost": 0,
+              "request_cost": 0,
+              "web_search_cost": 0,
+              "image_input_cost": null,
+              "image_output_cost": null,
+              "audio_input_cost": null
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          },
+          "gateway": {
+            "request_id": "891eb8eea55248adab77663355222262",
+            "simulated": false,
+            "cache_hit": false,
+            "queue_ms": 2982.019,
+            "e2e_ms": 12068.627,
+            "attempts": 1
+          },
+          "usable": true
+        },
+        {
+          "index": 2,
+          "priority": "background",
+          "arrival_seconds": 0.04,
+          "content": "Issue: Return requested for item delivered 3 days ago, unused.\nMissing facts: Packaging condition and return shipping fee are unknown.\nHuman next step: Verify packaging is intact and determine return shipping fee before proceeding.",
+          "finish_reason": "stop",
+          "usage": {
+            "prompt_tokens": 110,
+            "total_tokens": 153,
+            "completion_tokens": 43,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0,
+              "video_tokens": 0,
+              "image_tokens": 0
+            },
+            "reasoning_tokens": 0,
+            "cost": 2.744e-05,
+            "cost_details": {
+              "upstream_inference_cost": 2.744e-05,
+              "upstream_inference_prompt_cost": 1.54e-05,
+              "upstream_inference_completions_cost": 1.204e-05,
+              "total_cost": 2.744e-05,
+              "input_cost": 1.54e-05,
+              "output_cost": 1.204e-05,
+              "cached_input_cost": 0,
+              "cache_write_input_cost": 0,
+              "request_cost": 0,
+              "web_search_cost": 0,
+              "image_input_cost": null,
+              "image_output_cost": null,
+              "audio_input_cost": null
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          },
+          "gateway": {
+            "request_id": "fc73e62553a140a991806e2958a7d257",
+            "simulated": false,
+            "cache_hit": false,
+            "queue_ms": 12047.872,
+            "e2e_ms": 14536.881,
+            "attempts": 1
+          },
+          "usable": true
+        },
+        {
+          "index": 3,
+          "priority": "interactive",
+          "arrival_seconds": 0.2,
+          "content": "Yes, returns are allowed within 7 days of delivery if unused and packaging is intact. A human must verify eligibility. Please contact us to start the process.",
+          "finish_reason": "stop",
+          "usage": {
+            "prompt_tokens": 82,
+            "total_tokens": 115,
+            "completion_tokens": 33,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0,
+              "video_tokens": 0,
+              "image_tokens": 0
+            },
+            "reasoning_tokens": 0,
+            "cost": 2.072e-05,
+            "cost_details": {
+              "upstream_inference_cost": 2.0719999999999998e-05,
+              "upstream_inference_prompt_cost": 1.148e-05,
+              "upstream_inference_completions_cost": 9.24e-06,
+              "total_cost": 2.072e-05,
+              "input_cost": 1.148e-05,
+              "output_cost": 9.24e-06,
+              "cached_input_cost": 0,
+              "cache_write_input_cost": 0,
+              "request_cost": 0,
+              "web_search_cost": 0,
+              "image_input_cost": null,
+              "image_output_cost": null,
+              "audio_input_cost": null
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          },
+          "gateway": {
+            "request_id": "86a794fdd74e416ca0e1e1d6798e4ff2",
+            "simulated": false,
+            "cache_hit": false,
+            "queue_ms": 14888.355,
+            "e2e_ms": 17444.874,
+            "attempts": 1
+          },
+          "usable": true
+        },
+        {
+          "index": 4,
+          "priority": "interactive",
+          "arrival_seconds": 0.4,
+          "content": "No, you are not eligible. Returns are only accepted within 7 days of deliverycars.",
+          "finish_reason": "stop",
+          "usage": {
+            "prompt_tokens": 87,
+            "total_tokens": 107,
+            "completion_tokens": 20,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0,
+              "video_tokens": 0,
+              "image_tokens": 0
+            },
+            "reasoning_tokens": 0,
+            "cost": 1.778e-05,
+            "cost_details": {
+              "upstream_inference_cost": 1.778e-05,
+              "upstream_inference_prompt_cost": 1.218e-05,
+              "upstream_inference_completions_cost": 5.6e-06,
+              "total_cost": 1.778e-05,
+              "input_cost": 1.218e-05,
+              "output_cost": 5.6e-06,
+              "cached_input_cost": 0,
+              "cache_write_input_cost": 0,
+              "request_cost": 0,
+              "web_search_cost": 0,
+              "image_input_cost": null,
+              "image_output_cost": null,
+              "audio_input_cost": null
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          },
+          "gateway": {
+            "request_id": "2958f57216b149eca3d4fc3e4bf18fc3",
+            "simulated": false,
+            "cache_hit": false,
+            "queue_ms": 17689.6,
+            "e2e_ms": 20214.765,
+            "attempts": 1
+          },
+          "usable": true
+        },
+        {
+          "index": 5,
+          "priority": "interactive",
+          "arrival_seconds": 0.6,
+          "content": "Yes, returns are allowed within 7 days of delivery if unused and packaging is intact. A human must verify eligibility. Please confirm the item’s condition and packaging before proceeding.",
+          "finish_reason": "stop",
+          "usage": {
+            "prompt_tokens": 82,
+            "total_tokens": 119,
+            "completion_tokens": 37,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0,
+              "video_tokens": 0,
+              "image_tokens": 0
+            },
+            "reasoning_tokens": 0,
+            "cost": 2.184e-05,
+            "cost_details": {
+              "upstream_inference_cost": 2.184e-05,
+              "upstream_inference_prompt_cost": 1.148e-05,
+              "upstream_inference_completions_cost": 1.036e-05,
+              "total_cost": 2.184e-05,
+              "input_cost": 1.148e-05,
+              "output_cost": 1.036e-05,
+              "cached_input_cost": 0,
+              "cache_write_input_cost": 0,
+              "request_cost": 0,
+              "web_search_cost": 0,
+              "image_input_cost": null,
+              "image_output_cost": null,
+              "audio_input_cost": null
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          },
+          "gateway": {
+            "request_id": "1408cec0b95047f3bb48afbc7f98de0d",
+            "simulated": false,
+            "cache_hit": false,
+            "queue_ms": 20491.13,
+            "e2e_ms": 25240.851,
+            "attempts": 1
+          },
+          "usable": true
+        }
+      ],
+      "events": [
+        {
+          "id": "1263135ed8064c2d91a2a4b11b02d308",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 0.061,
+          "e2e_ms": 12087.852,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 160,
+          "served_tokens": 160
+        },
+        {
+          "id": "891eb8eea55248adab77663355222262",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 2982.019,
+          "e2e_ms": 12068.548,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 167,
+          "served_tokens": 167
+        },
+        {
+          "id": "fc73e62553a140a991806e2958a7d257",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 12047.872,
+          "e2e_ms": 14536.694,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 153,
+          "served_tokens": 153
+        },
+        {
+          "id": "86a794fdd74e416ca0e1e1d6798e4ff2",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 14888.355,
+          "e2e_ms": 17444.75,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 115,
+          "served_tokens": 115
+        },
+        {
+          "id": "2958f57216b149eca3d4fc3e4bf18fc3",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 17689.6,
+          "e2e_ms": 20214.613,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 107,
+          "served_tokens": 107
+        },
+        {
+          "id": "1408cec0b95047f3bb48afbc7f98de0d",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 20491.13,
+          "e2e_ms": 25240.642,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 119,
+          "served_tokens": 119
+        }
+      ],
+      "metrics": {
+        "requests": 6,
+        "successes": 6,
+        "errors": 0,
+        "elapsed_seconds": 25.842,
+        "successful_rps": 0.232,
+        "attempts": 6,
+        "rate_limited_attempts": 0,
+        "rate_429": 0.0,
+        "cache_hits": 0,
+        "cache_hit_rate": 0.0,
+        "upstream_tokens": 821,
+        "served_tokens": 821,
+        "queue": {
+          "p50_ms": 12047.872,
+          "p95_ms": 20491.13
+        },
+        "end_to_end": {
+          "p50_ms": 14536.694,
+          "p95_ms": 25240.642
+        },
+        "successful_end_to_end": {
+          "p50_ms": 14536.694,
+          "p95_ms": 25240.642
+        },
+        "by_priority": {
+          "interactive": {
+            "requests": 3,
+            "errors": 0,
+            "queue": {
+              "p50_ms": 17689.6,
+              "p95_ms": 20491.13
+            },
+            "end_to_end": {
+              "p50_ms": 20214.613,
+              "p95_ms": 25240.642
+            }
+          },
+          "background": {
+            "requests": 3,
+            "errors": 0,
+            "queue": {
+              "p50_ms": 2982.019,
+              "p95_ms": 12047.872
+            },
+            "end_to_end": {
+              "p50_ms": 12087.852,
+              "p95_ms": 14536.694
+            }
+          }
+        },
+        "outcomes": {
+          "success": 6
+        }
+      },
+      "unusable_outputs": 0
+    },
+    {
+      "cache_state": "cold",
+      "policy": "optimized",
+      "warmup": {},
+      "responses": [
+        {
+          "index": 0,
+          "priority": "background",
+          "arrival_seconds": 0.0,
+          "error_status": 502,
+          "error": "Upstream HTTP 502",
+          "usable": false
+        },
+        {
+          "index": 1,
+          "priority": "background",
+          "arrival_seconds": 0.02,
+          "error_status": 502,
+          "error": "Upstream HTTP 502",
+          "usable": false
+        },
+        {
+          "index": 2,
+          "priority": "background",
+          "arrival_seconds": 0.04,
+          "error_status": 502,
+          "error": "Upstream HTTP 502",
+          "usable": false
+        },
+        {
+          "index": 3,
+          "priority": "interactive",
+          "arrival_seconds": 0.2,
+          "error_status": 502,
+          "error": "Upstream HTTP 502",
+          "usable": false
+        },
+        {
+          "index": 4,
+          "priority": "interactive",
+          "arrival_seconds": 0.4,
+          "error_status": 502,
+          "error": "Upstream HTTP 502",
+          "usable": false
+        },
+        {
+          "index": 5,
+          "priority": "interactive",
+          "arrival_seconds": 0.6,
+          "error_status": 502,
+          "error": "Upstream HTTP 502",
+          "usable": false
+        }
+      ],
+      "events": [
+        {
+          "id": "7cf474f6c60b41cdab38acb2d6be4c9d",
+          "priority": "background",
+          "status": "upstream_502",
+          "queue_ms": 0.531,
+          "e2e_ms": 681.696,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 0,
+          "served_tokens": 0
+        },
+        {
+          "id": "e976f270c19d40329ddfb9408f99bf3e",
+          "priority": "interactive",
+          "status": "upstream_502",
+          "queue_ms": 2801.126,
+          "e2e_ms": 3077.516,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 0,
+          "served_tokens": 0
+        },
+        {
+          "id": "3190feb338f340e88ad450f47ce69338",
+          "priority": "interactive",
+          "status": "upstream_502",
+          "queue_ms": 5602.239,
+          "e2e_ms": 5878.697,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 0,
+          "served_tokens": 0
+        },
+        {
+          "id": "dea10c0d7ff94fdc9423908dbcb2be56",
+          "priority": "interactive",
+          "status": "upstream_502",
+          "queue_ms": 8404.729,
+          "e2e_ms": 8679.811,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 0,
+          "served_tokens": 0
+        },
+        {
+          "id": "8e995c60055d4c6db4968830255e85c1",
+          "priority": "background",
+          "status": "upstream_502",
+          "queue_ms": 11984.809,
+          "e2e_ms": 22290.293,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 0,
+          "served_tokens": 0
+        },
+        {
+          "id": "ab1dc82c211643309ca99225d8e12d29",
+          "priority": "background",
+          "status": "upstream_502",
+          "queue_ms": 14966.107,
+          "e2e_ms": 25727.389,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 0,
+          "served_tokens": 0
+        }
+      ],
+      "metrics": {
+        "requests": 6,
+        "successes": 0,
+        "errors": 6,
+        "elapsed_seconds": 25.769,
+        "successful_rps": 0.0,
+        "attempts": 6,
+        "rate_limited_attempts": 0,
+        "rate_429": 0.0,
+        "cache_hits": 0,
+        "cache_hit_rate": 0.0,
+        "upstream_tokens": 0,
+        "served_tokens": 0,
+        "queue": {
+          "p50_ms": 5602.239,
+          "p95_ms": 14966.107
+        },
+        "end_to_end": {
+          "p50_ms": 5878.697,
+          "p95_ms": 25727.389
+        },
+        "successful_end_to_end": {
+          "p50_ms": null,
+          "p95_ms": null
+        },
+        "by_priority": {
+          "interactive": {
+            "requests": 3,
+            "errors": 3,
+            "queue": {
+              "p50_ms": 5602.239,
+              "p95_ms": 8404.729
+            },
+            "end_to_end": {
+              "p50_ms": 5878.697,
+              "p95_ms": 8679.811
+            }
+          },
+          "background": {
+            "requests": 3,
+            "errors": 3,
+            "queue": {
+              "p50_ms": 11984.809,
+              "p95_ms": 14966.107
+            },
+            "end_to_end": {
+              "p50_ms": 22290.293,
+              "p95_ms": 25727.389
+            }
+          }
+        },
+        "outcomes": {
+          "upstream_502": 6
+        }
+      },
+      "unusable_outputs": 6
+    }
+  ],
+  "new_ledger_attempts_after_preflight": 12,
+  "generation_calls": 12,
+  "reserved_token_allowance": 10534,
+  "observed_upstream_tokens": 821,
+  "failure": "Study stopped after errors/unusable outputs; partial results retained",
+  "interpretation": "Inconclusive comparison: baseline completed; optimized arm encountered six upstream HTTP 502 failures. Do not compare latency as optimization benefit."
+}

@@ -1,0 +1,10 @@
+.env*
+.venv
+__pycache__
+.git
+data
+results/*
+!results/live-study.json
+!results/live-study-quality.json
+.pytest_cache
+*.egg-info

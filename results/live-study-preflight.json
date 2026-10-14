@@ -1,0 +1,8 @@
+{
+  "rpm_limit": 20,
+  "daily_cost_limit_usd": 1,
+  "daily_cost_used_usd": 5.334000161383301e-05,
+  "daily_cost_remaining_usd": 0.9999466599983862,
+  "daily_reset_timezone": "Asia/Shanghai",
+  "daily_reset_at": "2026-10-14T16:00:00.000Z"
+}

@@ -1,0 +1,2536 @@
+{
+  "simulated": true,
+  "seed": 1069,
+  "workload_sha256": "4719fc14a78d078e2303626df172fa9468bd561b97e4e4d6d7e9cdda803df420",
+  "limits": {
+    "rpm": 600,
+    "concurrency": 3
+  },
+  "workload": [
+    {
+      "arrival_seconds": 0.0,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Summarize ticket 0: a delayed parcel, with a customer asking about a return."
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "background",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 256,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.015,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Summarize ticket 1: a delayed parcel, with a customer asking about a return."
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "background",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 256,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.03,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Summarize ticket 2: a delayed parcel, with a customer asking about a return."
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "background",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 256,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.045,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Summarize ticket 3: a delayed parcel, with a customer asking about a return."
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "background",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 256,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.06,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Summarize ticket 4: a delayed parcel, with a customer asking about a return."
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "background",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 256,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.075,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Summarize ticket 5: a delayed parcel, with a customer asking about a return."
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "background",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 256,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.09,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Summarize ticket 6: a delayed parcel, with a customer asking about a return."
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "background",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 256,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.105,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Summarize ticket 7: a delayed parcel, with a customer asking about a return."
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "background",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 256,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.12,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Summarize ticket 8: a delayed parcel, with a customer asking about a return."
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "background",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 256,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.135,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Summarize ticket 9: a delayed parcel, with a customer asking about a return."
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "background",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 256,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.15,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Summarize ticket 10: a delayed parcel, with a customer asking about a return."
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "background",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 256,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.16499999999999998,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Summarize ticket 11: a delayed parcel, with a customer asking about a return."
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "background",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 256,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.2,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 2 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.23500000000000001,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 1 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.27,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 3 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.30500000000000005,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 0 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.34,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 0 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.375,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 1 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.41000000000000003,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 3 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.44500000000000006,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 3 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.48000000000000004,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 1 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.5150000000000001,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 3 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.55,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 1 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.585,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 3 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.6200000000000001,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 0 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.655,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 1 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.6900000000000001,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 3 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.7250000000000001,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 0 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.76,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 1 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    },
+    {
+      "arrival_seconds": 0.7950000000000002,
+      "request": {
+        "model": "fake-commerce-v1",
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are a demo commerce support agent. An unused item delivered within 7 days may be considered for a return. Refer unknown facts to a person and never promise a refund."
+          },
+          {
+            "role": "user",
+            "content": "Item 3 is unused. Can I return it?"
+          }
+        ],
+        "tenant": "demo-shop",
+        "knowledge_version": "policy-v1",
+        "priority": "interactive",
+        "temperature": 0,
+        "top_p": 1,
+        "max_tokens": 128,
+        "seed": null,
+        "stop": null,
+        "tools": null,
+        "cache": true,
+        "timeout_seconds": 20.0
+      }
+    }
+  ],
+  "results": [
+    {
+      "policy": "baseline",
+      "cache_state": "cold",
+      "metrics": {
+        "requests": 30,
+        "successes": 30,
+        "errors": 0,
+        "elapsed_seconds": 3.032,
+        "successful_rps": 9.894,
+        "attempts": 30,
+        "rate_limited_attempts": 0,
+        "rate_429": 0.0,
+        "cache_hits": 0,
+        "cache_hit_rate": 0.0,
+        "upstream_tokens": 3998,
+        "served_tokens": 3998,
+        "queue": {
+          "p50_ms": 1151.863,
+          "p95_ms": 2073.469
+        },
+        "end_to_end": {
+          "p50_ms": 1252.742,
+          "p95_ms": 2158.829
+        },
+        "successful_end_to_end": {
+          "p50_ms": 1252.742,
+          "p95_ms": 2158.829
+        },
+        "by_priority": {
+          "interactive": {
+            "requests": 18,
+            "errors": 0,
+            "queue": {
+              "p50_ms": 1545.612,
+              "p95_ms": 2138.633
+            },
+            "end_to_end": {
+              "p50_ms": 1630.877,
+              "p95_ms": 2236.02
+            }
+          },
+          "background": {
+            "requests": 12,
+            "errors": 0,
+            "queue": {
+              "p50_ms": 428.083,
+              "p95_ms": 955.506
+            },
+            "end_to_end": {
+              "p50_ms": 712.418,
+              "p95_ms": 1252.742
+            }
+          }
+        },
+        "outcomes": {
+          "success": 30
+        }
+      },
+      "warmup": {
+        "requests": 0,
+        "attempts": 0,
+        "tokens": 0,
+        "seconds": 0
+      },
+      "events": [
+        {
+          "id": "3f91c27dba16472ab235d67bc4de843c",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 0.034,
+          "e2e_ms": 294.876,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "2f15b2c74b1e44a29948168a0a4c3483",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 84.636,
+          "e2e_ms": 375.039,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "fc0cdda2af1c424988a59db26a4727a5",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 170.727,
+          "e2e_ms": 466.992,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "2d47c759c877454e9c927dd1c467aee1",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 256.056,
+          "e2e_ms": 555.815,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "8ed87eb0216043c5a8f5953437d46cde",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 342.419,
+          "e2e_ms": 646.038,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "c169697aaabd43c09931c5e24ced1c01",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 428.083,
+          "e2e_ms": 712.418,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "ad18760bb3e44f87bce6ca090aca9a50",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 513.247,
+          "e2e_ms": 811.399,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "53fd70e05ee84705bf835854580f33e3",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 601.61,
+          "e2e_ms": 907.692,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "f964f475f1254ac7b6b1833068e0951b",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 686.403,
+          "e2e_ms": 971.672,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "ecd3690880ad4142898b448309f464d4",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 772.263,
+          "e2e_ms": 1079.718,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "7911593f9dd640de8de8e9fc2e566e9d",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 862.552,
+          "e2e_ms": 1156.118,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 136,
+          "served_tokens": 136
+        },
+        {
+          "id": "8e62b27589184b9cb70b1754731d7427",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1020.915,
+          "e2e_ms": 1121.195,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "090bf86bf91842aa81730b706c7a1780",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1086.383,
+          "e2e_ms": 1171.609,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "752975f9d82045548c81d235b6a20dee",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 955.506,
+          "e2e_ms": 1252.742,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 136,
+          "served_tokens": 136
+        },
+        {
+          "id": "5489447309b84ef29f6237eec0c8da0c",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1151.863,
+          "e2e_ms": 1249.106,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "6be8c1d3569e41f2999c2e36cf82d750",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1218.048,
+          "e2e_ms": 1311.336,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "23724a369f6c467e8d5c92ebcdf4466f",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1282.643,
+          "e2e_ms": 1375.405,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "a5697063d251464bbcffcb0f52591db0",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1348.493,
+          "e2e_ms": 1433.155,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "a5a40d238f1044bcbf69cd2a11e01b3d",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1414.855,
+          "e2e_ms": 1511.733,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "6d44a422e29144bb92121bc8a7edf1c8",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1480.056,
+          "e2e_ms": 1576.426,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "cd9e60828f324732b6dbd271e6d5a8c9",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1545.612,
+          "e2e_ms": 1630.877,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "cbff8d59eb3b4f6d80591de62c07fec1",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1611.859,
+          "e2e_ms": 1709.236,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "77959b16470e4ce9ad564895038777c0",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1677.355,
+          "e2e_ms": 1762.77,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "70ffffcd73134bc7ba6aa82ab46f9265",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1743.636,
+          "e2e_ms": 1840.987,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "b41005f23f6a4392b5c913cb00b6a652",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1809.107,
+          "e2e_ms": 1902.468,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "e71b2790f675493aa27f2b9a0ffc4749",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1876.029,
+          "e2e_ms": 1961.341,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "116ba9707031450fb1ccab5086323f6c",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1941.294,
+          "e2e_ms": 2037.854,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "b950d93898434f579d55861d5e9708f4",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 2006.961,
+          "e2e_ms": 2099.828,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "daff885185aa4336baac6d3cdfd7c9f2",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 2073.469,
+          "e2e_ms": 2158.829,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "baae4416060b488b94010d898b157fb2",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 2138.633,
+          "e2e_ms": 2236.02,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        }
+      ],
+      "fake_peak_concurrency": 3
+    },
+    {
+      "policy": "optimized",
+      "cache_state": "cold",
+      "metrics": {
+        "requests": 30,
+        "successes": 30,
+        "errors": 0,
+        "elapsed_seconds": 1.815,
+        "successful_rps": 16.525,
+        "attempts": 16,
+        "rate_limited_attempts": 0,
+        "rate_429": 0.0,
+        "cache_hits": 14,
+        "cache_hit_rate": 0.4666666666666667,
+        "upstream_tokens": 2150,
+        "served_tokens": 3998,
+        "queue": {
+          "p50_ms": 187.128,
+          "p95_ms": 1266.146
+        },
+        "end_to_end": {
+          "p50_ms": 330.216,
+          "p95_ms": 1558.543
+        },
+        "successful_end_to_end": {
+          "p50_ms": 330.216,
+          "p95_ms": 1558.543
+        },
+        "by_priority": {
+          "interactive": {
+            "requests": 18,
+            "errors": 0,
+            "queue": {
+              "p50_ms": 0,
+              "p95_ms": 396.594
+            },
+            "end_to_end": {
+              "p50_ms": 0.154,
+              "p95_ms": 396.859
+            }
+          },
+          "background": {
+            "requests": 12,
+            "errors": 0,
+            "queue": {
+              "p50_ms": 833.57,
+              "p95_ms": 1352.979
+            },
+            "end_to_end": {
+              "p50_ms": 1117.979,
+              "p95_ms": 1649.83
+            }
+          }
+        },
+        "outcomes": {
+          "success": 30
+        }
+      },
+      "warmup": {
+        "requests": 0,
+        "attempts": 0,
+        "tokens": 0,
+        "seconds": 0
+      },
+      "events": [
+        {
+          "id": "40cdd1962900492e81e502ca15c909f0",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 0.118,
+          "e2e_ms": 295.543,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "2de78b9700894b198cbab2a4301d570b",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1.068,
+          "e2e_ms": 100.7,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "7d6074ff767e49aeaa1e1d6a67708daa",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 66.07,
+          "e2e_ms": 150.919,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "941328084de240cfb7052cbdf2766e6e",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 85.586,
+          "e2e_ms": 376.698,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "2cbf655581f44a58bc9201b83f02d83b",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.071,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "b3eeebb73e4c40d18a8e55289d77f6e1",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 132.244,
+          "e2e_ms": 229.198,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "f03bdcc43a9a4aa895fbee613f4ac96b",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.076,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "d8ea909879f4494f9f22ae50d9617c58",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.091,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "6bcbf64dd2cd44f7933a1693d3b1a036",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.076,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "e084d14b31bb4eed8aac13bda309f73f",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.115,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "f0f8d51c2ca14178bb0add941506833c",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.111,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "eac14cb959894f31bfc03c3b2f0791c8",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 299.557,
+          "e2e_ms": 392.57,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "51068b3263804224af23a4b2c41867a6",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 364.888,
+          "e2e_ms": 365.027,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "147d37061ee74741bebb8f22655ea691",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 330.171,
+          "e2e_ms": 330.216,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "f8c4bb94a8e94c4d9f47fa85b22181c7",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.154,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "0c0e5664c8a44bb7afeca0dc47e19516",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.132,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "ab7e44282a5942a0bd691f5c8184b04b",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.154,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "e6a6cc3cc79a4c8a90d955d50a1aae09",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 472.719,
+          "e2e_ms": 768.6,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "3d8d3ff3dbfd4c7987d89561649d116b",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 396.594,
+          "e2e_ms": 396.859,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "78d768c070d440c3866eadff033a8b51",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 361.909,
+          "e2e_ms": 362.019,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "9b4bfd51f52f41c3aec0c28b89f6ce9d",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 187.128,
+          "e2e_ms": 187.215,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "2edb6bb83f6f4ad5b3d3830c3441bc1d",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 660.252,
+          "e2e_ms": 960.606,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "d7fc6aa38e2049a1a80d97ec38533056",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 747.305,
+          "e2e_ms": 1051.766,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "332fa5b8d945460ca188e27767fddbc2",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 833.57,
+          "e2e_ms": 1117.979,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "3dbafcf2f9ca4db7a2394b3eda0638b1",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 919.003,
+          "e2e_ms": 1217.452,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "f29b3ee0fdb44504bc9885adbde31608",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 1007.583,
+          "e2e_ms": 1311.835,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "e98ec78ea31546aa965ffc0489b51f48",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 1093.07,
+          "e2e_ms": 1377.758,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "8bbfc18baa114c69b4223225beb291e7",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 1178.857,
+          "e2e_ms": 1485.991,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "30b45b2f75194104873a2d10830d33d3",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 1266.146,
+          "e2e_ms": 1558.543,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 136,
+          "served_tokens": 136
+        },
+        {
+          "id": "6ec5afafdf2f4b23afc1a324bd83c96d",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 1352.979,
+          "e2e_ms": 1649.83,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 136,
+          "served_tokens": 136
+        }
+      ],
+      "fake_peak_concurrency": 3
+    },
+    {
+      "policy": "baseline",
+      "cache_state": "warm",
+      "metrics": {
+        "requests": 30,
+        "successes": 30,
+        "errors": 0,
+        "elapsed_seconds": 3.03,
+        "successful_rps": 9.901,
+        "attempts": 30,
+        "rate_limited_attempts": 0,
+        "rate_429": 0.0,
+        "cache_hits": 0,
+        "cache_hit_rate": 0.0,
+        "upstream_tokens": 3998,
+        "served_tokens": 3998,
+        "queue": {
+          "p50_ms": 1148.084,
+          "p95_ms": 2070.269
+        },
+        "end_to_end": {
+          "p50_ms": 1245.356,
+          "p95_ms": 2155.762
+        },
+        "successful_end_to_end": {
+          "p50_ms": 1245.356,
+          "p95_ms": 2155.762
+        },
+        "by_priority": {
+          "interactive": {
+            "requests": 18,
+            "errors": 0,
+            "queue": {
+              "p50_ms": 1542.831,
+              "p95_ms": 2136.666
+            },
+            "end_to_end": {
+              "p50_ms": 1628.156,
+              "p95_ms": 2233.93
+            }
+          },
+          "background": {
+            "requests": 12,
+            "errors": 0,
+            "queue": {
+              "p50_ms": 428.566,
+              "p95_ms": 947.259
+            },
+            "end_to_end": {
+              "p50_ms": 712.855,
+              "p95_ms": 1244.169
+            }
+          }
+        },
+        "outcomes": {
+          "success": 30
+        }
+      },
+      "warmup": {
+        "requests": 4,
+        "attempts": 4,
+        "tokens": 528,
+        "seconds": 0.396
+      },
+      "events": [
+        {
+          "id": "82e6b351759d4a59b89e3d57b4b087f6",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 0.056,
+          "e2e_ms": 295.318,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "f5c6c534fd9044d1aa9b6d9e2c92a409",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 85.448,
+          "e2e_ms": 376.63,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "5360f62e8e174804a19380078f4f841f",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 170.587,
+          "e2e_ms": 466.327,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "fb36db915c0042b1a9c557b1d0c06c91",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 256.672,
+          "e2e_ms": 556.932,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "289bf740c9ea49f28264b842c80ce08c",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 342.598,
+          "e2e_ms": 646.217,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "8f6d4e3996f64ac89d50418de22b8737",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 428.566,
+          "e2e_ms": 712.855,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "a70a52127af94e4b828136ee33620299",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 513.945,
+          "e2e_ms": 811.754,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "93f4e9dc871b47d4a89cc983c049e163",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 602.12,
+          "e2e_ms": 906.515,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "3b3d536bd9b944608579c01a78ca6745",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 687.709,
+          "e2e_ms": 972.978,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "e636e1a1a8e346e0ab5779232d8cbb2e",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 774.252,
+          "e2e_ms": 1081.534,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "6a41b7526b3245f9ba68bbcded89223e",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 861.245,
+          "e2e_ms": 1153.506,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 136,
+          "served_tokens": 136
+        },
+        {
+          "id": "98003a93eb254468b3d3714b24444108",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1016.172,
+          "e2e_ms": 1116.546,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "9c645c1f61ad41719370128f412b2661",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1081.846,
+          "e2e_ms": 1167.21,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "f693155b8a684c08bf47c98ca0e1a349",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 947.259,
+          "e2e_ms": 1244.169,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 136,
+          "served_tokens": 136
+        },
+        {
+          "id": "42dce49c748c473dbd3a767a4d2b3bad",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1148.084,
+          "e2e_ms": 1245.356,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "dc7d0c189f5347488c6da83d7b491514",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1214.514,
+          "e2e_ms": 1307.859,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "2f47ba092a424579a45eb8134c9276a6",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1280.189,
+          "e2e_ms": 1373.604,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "20f9022fa29a4e3e834479a9db46861a",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1345.693,
+          "e2e_ms": 1430.986,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "23c0cbfb4b704693a03200cb3c860d49",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1412.019,
+          "e2e_ms": 1509.134,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "7488f9b81cc748e8a488c725c08508c2",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1477.332,
+          "e2e_ms": 1574.544,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "0ddab5e580664c31906d689b4e55c145",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1542.831,
+          "e2e_ms": 1628.156,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "59a7db888f0f49b1a09d43bdc62f3d29",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1609.265,
+          "e2e_ms": 1706.845,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "143051f7f42b4211a14767908589406a",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1674.58,
+          "e2e_ms": 1759.129,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "2602fd12cb35441586bb067efa135855",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1740.826,
+          "e2e_ms": 1838.452,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "ca7cdfcc7ac744dea9c98526b17791e0",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1806.837,
+          "e2e_ms": 1900.267,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "e8a670020f1f4157b94468b99ff01543",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1872.338,
+          "e2e_ms": 1957.75,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "290505c5d1074dfdaeb5f56c380a276c",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 1938.463,
+          "e2e_ms": 2035.799,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "3c82ddfa22f4442dab4cfa4ea690eca8",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 2004.064,
+          "e2e_ms": 2097.453,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "0f286bf3632f4e83afad5bf7cdcad8cf",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 2070.269,
+          "e2e_ms": 2155.762,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        },
+        {
+          "id": "1b61f8f3393d43d2a030e2b57a70c4f5",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 2136.666,
+          "e2e_ms": 2233.93,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 132,
+          "served_tokens": 132
+        }
+      ],
+      "fake_peak_concurrency": 3
+    },
+    {
+      "policy": "optimized",
+      "cache_state": "warm",
+      "metrics": {
+        "requests": 30,
+        "successes": 30,
+        "errors": 0,
+        "elapsed_seconds": 1.411,
+        "successful_rps": 21.267,
+        "attempts": 12,
+        "rate_limited_attempts": 0,
+        "rate_429": 0.0,
+        "cache_hits": 18,
+        "cache_hit_rate": 0.6,
+        "upstream_tokens": 1622,
+        "served_tokens": 3998,
+        "queue": {
+          "p50_ms": 0,
+          "p95_ms": 860.689
+        },
+        "end_to_end": {
+          "p50_ms": 0.172,
+          "p95_ms": 1153.053
+        },
+        "successful_end_to_end": {
+          "p50_ms": 0.172,
+          "p95_ms": 1153.053
+        },
+        "by_priority": {
+          "interactive": {
+            "requests": 18,
+            "errors": 0,
+            "queue": {
+              "p50_ms": 0,
+              "p95_ms": 0
+            },
+            "end_to_end": {
+              "p50_ms": 0.115,
+              "p95_ms": 0.223
+            }
+          },
+          "background": {
+            "requests": 12,
+            "errors": 0,
+            "queue": {
+              "p50_ms": 427.492,
+              "p95_ms": 946.873
+            },
+            "end_to_end": {
+              "p50_ms": 711.921,
+              "p95_ms": 1244.394
+            }
+          }
+        },
+        "outcomes": {
+          "success": 30
+        }
+      },
+      "warmup": {
+        "requests": 4,
+        "attempts": 4,
+        "tokens": 528,
+        "seconds": 0.397
+      },
+      "events": [
+        {
+          "id": "4ce8a94eaab7424a9927da0dd6bea901",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.134,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "a9794f46f20048b3b1f0acc234f7a672",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.098,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "145bfeab740440c587a41939dcf73daa",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.105,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "0da43dc195964b949984865ff3bc9aef",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 0.137,
+          "e2e_ms": 295.64,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "36c1b87c30ad4c6c9160902fe4c39f66",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.073,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "50abec5e0c9440918b4271c2fb4dac22",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.106,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "e5e0118757ae436ca43d0a339ce8a523",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.172,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "988016d616a54f0aa1152143f405c540",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 85.514,
+          "e2e_ms": 377.043,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "4f027ba040e44a3cb27d7a6754701d3b",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.222,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "97963b04370d4c9d89b65be0dbf5a2cf",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.119,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "e40ea5bcbefd40c696251afb9169846d",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.158,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "f91db98554374a82b9c895be0dea5c12",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 170.627,
+          "e2e_ms": 467.192,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "ab11aff3f23846898758b3a8e42d796f",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.197,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "587ccd5930d841e1b5aa1151b3a1fbe2",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.223,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "dfcf7a14bb8744f789d307f1c856aef9",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.136,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "98f7493c4d9f4cad9a8b57c8cc3d66eb",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 256.441,
+          "e2e_ms": 556.766,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "d86625ba54e14f34969ca90af18f6e53",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.131,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "27fc082757664da69acc14b0d06fe3de",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.111,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "6c10c1d408e04d82acf6fbc1ceda91a5",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.081,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "ab18b4d81f6b4653b8fd282baa5153be",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 342.486,
+          "e2e_ms": 646.916,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "aff60d87d788420bb23566904c55a694",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.069,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "0a852365f7c24bab8dbc99ce332d4901",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.115,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "19dc90be1cff4d18a3b98fee22b03f0d",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 427.492,
+          "e2e_ms": 711.921,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "ac0474b0ebfd44dc8cf7bc7e587d772e",
+          "priority": "interactive",
+          "status": "success",
+          "queue_ms": 0,
+          "e2e_ms": 0.088,
+          "attempts": 0,
+          "rate_limited": 0,
+          "cache_hit": true,
+          "upstream_tokens": 0,
+          "served_tokens": 132
+        },
+        {
+          "id": "8e5e609ee6474808945c75d1703f20ff",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 512.651,
+          "e2e_ms": 810.036,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "b03feea10f484a40ab284bd835ac3fe9",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 601.778,
+          "e2e_ms": 906.112,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "c99f31c38b7548919575025a144666fb",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 687.433,
+          "e2e_ms": 972.926,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "95ed43feae8c4fb3b556b128b2549430",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 773.469,
+          "e2e_ms": 1081.311,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 135,
+          "served_tokens": 135
+        },
+        {
+          "id": "420035a453f54ef6a0ac1f2c16e0db02",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 860.689,
+          "e2e_ms": 1153.053,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 136,
+          "served_tokens": 136
+        },
+        {
+          "id": "5621bb66fa3646eba62ef78a598e99e4",
+          "priority": "background",
+          "status": "success",
+          "queue_ms": 946.873,
+          "e2e_ms": 1244.394,
+          "attempts": 1,
+          "rate_limited": 0,
+          "cache_hit": false,
+          "upstream_tokens": 136,
+          "served_tokens": 136
+        }
+      ],
+      "fake_peak_concurrency": 3
+    }
+  ],
+  "method": "Same seeded arrivals/payloads/deadlines and limits for each policy. Separate fresh fake provider per case. Warm phase primes identical unique interactive FAQ requests for both policies; warmup costs reported separately, provider windows reset identically. Cold phase starts empty but may get within-run repeat hits. No streaming or TTFT. Wall-clock timings vary with host load. Not AMD/GPU measurements."
+}

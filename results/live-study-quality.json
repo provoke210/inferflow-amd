@@ -1,0 +1,87 @@
+{
+  "review_type": "manual assistant review, not an independent or statistically calibrated quality evaluation",
+  "source": "live-study.json",
+  "workload_sha256": "daa71bec047cbf83e23334d41fe109b91aed90ea330b5e68c43eb6a3ca9859cd",
+  "transport_success_is_not_quality_pass": true,
+  "automatic_business_decisions_ready": false,
+  "criteria": [
+    "Preserve supplied facts",
+    "Do not invent policy conditions, ETA, or fees",
+    "Ask about genuinely unknown facts",
+    "Leave business decisions to a human"
+  ],
+  "reviews": [
+    {
+      "policy": "baseline",
+      "response_index": 0,
+      "verdict": "acceptable draft",
+      "finding": "Correct delayed-parcel issue and human tracking check. No invented ETA."
+    },
+    {
+      "policy": "baseline",
+      "response_index": 1,
+      "verdict": "needs revision",
+      "finding": "Preserves wrong-color issue, but redundantly asks to confirm packaging already stated intact. Preserve known delivery and condition facts more explicitly."
+    },
+    {
+      "policy": "baseline",
+      "response_index": 2,
+      "verdict": "acceptable draft",
+      "finding": "Correctly retains missing packaging and fee. No invented fee."
+    },
+    {
+      "policy": "baseline",
+      "response_index": 3,
+      "verdict": "needs revision",
+      "finding": "Introduces unopened packaging although policy only requires intact packaging, and speaks as if it can inspect orders. Requires human editing."
+    },
+    {
+      "policy": "baseline",
+      "response_index": 4,
+      "verdict": "needs revision",
+      "finding": "CRITICAL: Treats 10 days as within 7 days and wrongly approves eligibility. Must not drive automatic decisions."
+    },
+    {
+      "policy": "baseline",
+      "response_index": 5,
+      "verdict": "needs revision",
+      "finding": "Same unknown-packaging policy drift as index 3. Optimized arm reuses the cached response, including its defects."
+    },
+    {
+      "policy": "optimized",
+      "response_index": 0,
+      "verdict": "acceptable draft",
+      "finding": "Correct delayed-parcel issue and human tracking check. No invented ETA."
+    },
+    {
+      "policy": "optimized",
+      "response_index": 1,
+      "verdict": "needs revision",
+      "finding": "Preserves wrong-color issue, but redundantly asks to confirm packaging already stated intact. Preserve known delivery and condition facts more explicitly."
+    },
+    {
+      "policy": "optimized",
+      "response_index": 2,
+      "verdict": "acceptable draft",
+      "finding": "Correctly retains missing packaging and fee. No invented fee."
+    },
+    {
+      "policy": "optimized",
+      "response_index": 3,
+      "verdict": "needs revision",
+      "finding": "Introduces unopened packaging although policy only requires intact packaging, and speaks as if it can inspect orders. Requires human editing."
+    },
+    {
+      "policy": "optimized",
+      "response_index": 4,
+      "verdict": "needs revision",
+      "finding": "CRITICAL: Treats 10 days as within 7 days and wrongly approves eligibility. Must not drive automatic decisions."
+    },
+    {
+      "policy": "optimized",
+      "response_index": 5,
+      "verdict": "needs revision",
+      "finding": "Same unknown-packaging policy drift as index 3. Optimized arm reuses the cached response, including its defects."
+    }
+  ]
+}
